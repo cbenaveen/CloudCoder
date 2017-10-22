@@ -108,7 +108,6 @@
 
 	<modules>
 		<module>CloudCoderModelClasses</module>
-		<module>CloudCoderLogging</module>
 		<module>CloudCoderJetty</module>
 		<module>CloudCoderModelClassesPersistence</module>
 		<module>CloudCoderModelClassesJSON</module>
