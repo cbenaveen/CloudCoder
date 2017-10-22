@@ -8,3 +8,5 @@ CloudCoderTools
 CloudCoderBuilder
 LATEST
 .DS_Store
+/bin/
+*/target/**
