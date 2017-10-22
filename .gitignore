@@ -10,3 +10,7 @@ LATEST
 .DS_Store
 /bin/
 */target/**
+*/dependency-reduced-pom.xml
+.settings
+target/**
+	
