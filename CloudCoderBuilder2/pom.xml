@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>cloudcoder-jetty</artifactId>
+	<artifactId>cloudcoder-builder2</artifactId>
 
 	<parent>
 		<groupId>cloudcoder</groupId>
@@ -12,6 +12,16 @@
 	</parent>
 
 	<dependencies>
+		<dependency>
+			<groupId>cloudcoder</groupId>
+			<artifactId>cloudcoder-modelclass</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>cloudcoder</groupId>
+			<artifactId>cloudcoder-modelclass-json</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>cloudcoder</groupId>
 			<artifactId>cloudcoder-daemon</artifactId>
@@ -25,16 +35,23 @@
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.commons</groupId>
+			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jruby/jruby-complete -->
 		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-server</artifactId>
+			<groupId>org.jruby</groupId>
+			<artifactId>jruby-complete</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jruby.embed/jruby-embed -->
 		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-webapp</artifactId>
+			<groupId>org.jruby.embed</groupId>
+			<artifactId>jruby-embed</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.python/jython -->
+		<dependency>
+			<groupId>org.python</groupId>
+			<artifactId>jython</artifactId>
 		</dependency>
 	</dependencies>
 
