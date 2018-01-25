@@ -2,12 +2,14 @@
 /keystore.jks
 *~
 *.swp
+*.iml
 installations
 /deps
 CloudCoderTools
 CloudCoderBuilder
 LATEST
 .DS_Store
+.idea
 /bin/
 */target/**
 */dependency-reduced-pom.xml

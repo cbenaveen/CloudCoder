@@ -19,12 +19,13 @@
 		</dependency>
 		<dependency>
 			<groupId>cloudcoder</groupId>
-			<artifactId>cloudcoder-modelclass-json</artifactId>
+			<artifactId>cloudcoder-daemon</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>cloudcoder</groupId>
-			<artifactId>cloudcoder-daemon</artifactId>
+			<artifactId>cloudcoder-modelclass-json</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>

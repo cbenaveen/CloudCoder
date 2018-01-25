@@ -18,11 +18,11 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
+			<!--<dependency>
 				<groupId>cloudcoder</groupId>
 				<artifactId>cloudcoder-daemon</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
+			</dependency>-->
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
@@ -130,6 +130,7 @@
 	</dependencyManagement>
 
 	<modules>
+		<module>Daemon</module>
 		<module>CloudCoderModelClasses</module>
 		<module>CloudCoderJetty</module>
 		<module>CloudCoderModelClassesPersistence</module>
